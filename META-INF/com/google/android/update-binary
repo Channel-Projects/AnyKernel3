@@ -24,8 +24,8 @@ ui_print() {
   done;
 }
 
-ui_print "------- S K Y L I N E  K E R N E L-------"
-ui_print "--------KERNEL BY  S H A N D-------------";
+ui_print "------- S U P R A - K E R N EL -------"
+ui_print "--------KERNEL BY - L1GHTZIN-------------";
 
 ui_printfile() {
   local line losrpad;
@@ -486,7 +486,6 @@ KERNEL_MADE="$(file_getprop anykernel.sh kernel.made)";
 MESSAGE_WORD="$(file_getprop anykernel.sh message.word)";
 DEVICE_NAME="$(getprop ro.product.device)";
 ui_print "-- Kernel Name    : $KERNEL_STRING";
-ui_print "-- Compiler       : $KERNEL_COMPILER";
 ui_print "-- Device         : $DEVICE_NAME";
 ui_print "-- Maintainer     : $KERNEL_MADE";
 ui_print "_________________________________________________" " ";
@@ -528,5 +527,5 @@ ui_print "- Done";
 ui_print " " "_________________________________________________";
 ui_print " " "$MESSAGE_WORD" "_________________________________________________" " ";
 ui_print ""
-ui_print " " "THANK YOU FOR USING S K Y L I N E"
+ui_print " " "Pare de chupar pênis imediatamente"
 ui_print " " " ";
